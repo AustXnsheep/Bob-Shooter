@@ -30,26 +30,35 @@ Bob Shooter is a little C++ project I made to learn low level programming on a d
 
 1. Clone the repository:
 
-   ```bash
-   git clone git@github.com:AustXnsheep/Bob-Shooter.git
-   cd Bob-Shooter
-   ```
+```bash
+git clone git@github.com:AustXnsheep/Bob-Shooter.git
+cd Bob-Shooter
+```
 2. Build from source using CMake (you can use other build tools if you want)
-   ```bash
-   mkdir build && cd build
-   cmake ..
-   cmake --build .
-   ```
+   
+On Linux
+```bash
+mkdir build && cd build
+cmake ..
+cmake --build .
+```
+On Windows
+```bash
+mkdir build
+cd build
+cmake .. -DCMAKE_TOOLCHAIN_FILE=../mingw-toolchain.cmake
+cmake --build .
+```
 3. Run the game!
 
-   On Linux/macOS
-   ```bash
-   ./Game
-   ```
-   On Windows
-   ```bash
-   Game.exe
-   ```
+On Linux
+```bash
+./Game
+```
+On Windows
+```bash
+Game.exe
+```
 
 License
 
