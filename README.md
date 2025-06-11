@@ -40,6 +40,7 @@ Bob Shooter is a little C++ project I made to learn low level programming on a d
    cmake --build .
    ```
 3. Run the game!
+
    On Linux/macOS
    ```bash
    ./Game
