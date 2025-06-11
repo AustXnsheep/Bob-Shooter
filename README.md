@@ -13,7 +13,8 @@ Bob Shooter is a little C++ project I made to learn low level programming on a d
 ## Features
 
 - Cross-platform support probably
-- 
+- Shooting red pellets
+- Keybinds
 
 ---
 
